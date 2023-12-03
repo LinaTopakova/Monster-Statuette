@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b693a8b3e6574c04abe8121df784fa32
+guid: 3609beaf739f92d4096799b2196e50a2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: room1_items_0
+      name: Sprite-01_character-sheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 136
-        width: 35
-        height: 93
+        x: 24
+        y: 207
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 229ff4e80af01a5418f49b15d5696516
-      internalID: 1867410026
+      spriteID: a674a3335f732f0449134b304589623a
+      internalID: 2146482023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_1
+      name: Sprite-01_character-sheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 136
-        width: 35
-        height: 93
+        x: 88
+        y: 207
+        width: 15
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be7276257d950f4da59dae8da0568c4
-      internalID: 866833908
+      spriteID: f3650b2aeed10cd4489399d759fad1d5
+      internalID: -122203252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_2
+      name: Sprite-01_character-sheet_2
       rect:
         serializedVersion: 2
-        x: 107
+        x: 152
+        y: 207
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ccd37df29161a46988f7d49d78d868
+      internalID: 1629073607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-01_character-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 207
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d7bf8d2989864f971bbba68ac32b2
+      internalID: -687038257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-01_character-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 143
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1dd1fb1ade086498cfa8903039930e
+      internalID: -1720847288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-01_character-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 88
         y: 143
         width: 16
-        height: 80
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10bc1d70ed8041a4cac4ae1466e50609
-      internalID: -954428487
+      spriteID: b00b32a4b52e8ba4992ab0ac859e0d76
+      internalID: -943461151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_3
+      name: Sprite-01_character-sheet_6
       rect:
         serializedVersion: 2
-        x: 131
-        y: 198
-        width: 60
-        height: 35
+        x: 152
+        y: 143
+        width: 14
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 202111bc1e64df448b73ff214b35fbb9
-      internalID: 38841327
+      spriteID: e6693d91e4508264eb361dfde434492b
+      internalID: -1278053440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_4
+      name: Sprite-01_character-sheet_7
       rect:
         serializedVersion: 2
-        x: 198
-        y: 146
-        width: 116
-        height: 84
+        x: 216
+        y: 143
+        width: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,83 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31450a059e7fe8940939c4ff8d2d0365
-      internalID: 2112174662
+      spriteID: 5a0df32f1e12fc44d9f13cb8c4e2c299
+      internalID: 748258869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_5
+      name: Sprite-01_character-sheet_8
       rect:
         serializedVersion: 2
-        x: 336
-        y: 125
-        width: 73
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cab8a7fa9bfcb234fbc36e5522d23801
-      internalID: -1974606524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room1_items_6
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 125
-        width: 73
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f116e0e21458e4a95541687ee373cf
-      internalID: 1019623331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room1_items_7
-      rect:
-        serializedVersion: 2
-        x: 538
-        y: 144
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79f37876216a7f7408ad8cf483ef1f3a
-      internalID: -795381223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room1_items_8
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 147
+        x: 24
+        y: 79
         width: 16
-        height: 48
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d08b2008480ca1142a27a553598178dd
-      internalID: -86980870
+      spriteID: 9cda0f9cccd02d44f9b43b6f41449780
+      internalID: -1186236186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_9
+      name: Sprite-01_character-sheet_9
       rect:
         serializedVersion: 2
-        x: 157
-        y: 175
-        width: 8
-        height: 12
+        x: 89
+        y: 79
+        width: 15
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e993b36a77c77b84d94c2ab8ceba51bb
-      internalID: -1438427444
+      spriteID: 5e3212a0c6564794ab922b958a180f3a
+      internalID: -1816625249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_10
+      name: Sprite-01_character-sheet_10
       rect:
         serializedVersion: 2
-        x: 174
-        y: 160
+        x: 152
+        y: 79
         width: 16
-        height: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16dcf5893778bc4f8f84cadff913900
-      internalID: 405505055
+      spriteID: 4b0db8a7338d08b4b9b18dce3fc3123a
+      internalID: -696365181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_11
+      name: Sprite-01_character-sheet_11
       rect:
         serializedVersion: 2
-        x: 157
-        y: 158
-        width: 8
-        height: 4
+        x: 217
+        y: 79
+        width: 15
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4f07ad03cd33c8408a99e57c7520372
-      internalID: -144334591
+      spriteID: a3ee36c05744bc846b8fd6d6fb54282c
+      internalID: -1937456586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_12
+      name: Sprite-01_character-sheet_12
       rect:
         serializedVersion: 2
-        x: 336
-        y: 30
-        width: 73
-        height: 68
+        x: 25
+        y: 15
+        width: 15
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5695ee4b2df87b04f9e9a177f8c05a4c
-      internalID: -711206745
+      spriteID: 1bf62d084e083e147ba69693638708a8
+      internalID: -817912964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_13
+      name: Sprite-01_character-sheet_13
       rect:
         serializedVersion: 2
-        x: 449
-        y: 60
-        width: 45
-        height: 38
+        x: 88
+        y: 15
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c66c2d2d292dd474e9d97f35a77d3726
-      internalID: 1293064338
+      spriteID: 7b58414eaf536d54fbd8a87b2e96bc85
+      internalID: 938067640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room1_items_14
+      name: Sprite-01_character-sheet_14
       rect:
         serializedVersion: 2
-        x: 421
-        y: 30
-        width: 73
-        height: 29
+        x: 153
+        y: 15
+        width: 15
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,8 +431,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21a251727084e1e41b7851e72cfe3ce1
-      internalID: 632880666
+      spriteID: 81f339770f523b04f8bb6a2d5c44fab8
+      internalID: -1481055682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-01_character-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff33250e7633c294abc90a83f662774b
+      internalID: -706010935
       vertices: []
       indices: 
       edges: []
@@ -448,21 +469,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      room1_items_0: 1867410026
-      room1_items_1: 866833908
-      room1_items_10: 405505055
-      room1_items_11: -144334591
-      room1_items_12: -711206745
-      room1_items_13: 1293064338
-      room1_items_14: 632880666
-      room1_items_2: -954428487
-      room1_items_3: 38841327
-      room1_items_4: 2112174662
-      room1_items_5: -1974606524
-      room1_items_6: 1019623331
-      room1_items_7: -795381223
-      room1_items_8: -86980870
-      room1_items_9: -1438427444
+      Sprite-01_character-sheet_0: 2146482023
+      Sprite-01_character-sheet_1: -122203252
+      Sprite-01_character-sheet_10: -696365181
+      Sprite-01_character-sheet_11: -1937456586
+      Sprite-01_character-sheet_12: -817912964
+      Sprite-01_character-sheet_13: 938067640
+      Sprite-01_character-sheet_14: -1481055682
+      Sprite-01_character-sheet_15: -706010935
+      Sprite-01_character-sheet_2: 1629073607
+      Sprite-01_character-sheet_3: -687038257
+      Sprite-01_character-sheet_4: -1720847288
+      Sprite-01_character-sheet_5: -943461151
+      Sprite-01_character-sheet_6: -1278053440
+      Sprite-01_character-sheet_7: 748258869
+      Sprite-01_character-sheet_8: -1186236186
+      Sprite-01_character-sheet_9: -1816625249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
