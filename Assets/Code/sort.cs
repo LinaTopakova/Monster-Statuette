@@ -5,23 +5,22 @@ using UnityEngine;
 
 public class sort : MonoBehaviour
 {
-    public bool isStatic = false;
-    public float offset = 0;
-    private int sortingOrderBase = 0;
-    private Renderer renderer;
-    // Start is called before the first frame update
-    void Awake()
+    public Vector3 V3;
+    private Renderer r;
+    void Start()
     {
-        renderer = GetComponent<Renderer>();
+        r = GetComponent<Renderer>();
     }
-
-    // Update is called once per frame
-    void LateUpdate()
+    private void Update()
     {
-        renderer.sortingOrder = (int)(sortingOrderBase - transform.position.y + offset);
-        if (isStatic)
+        V3 = this.transform.position;
+        if ((V3.y<0.797 && V3.y>0.631)&&(V3.x<0.919 && V3.x > 0.534))
         {
-            Destroy(this);
+            r.sortingOrder = 1;
         }
-    }   
+        else
+        {
+            r.sortingOrder = 2;
+        }
+    }
 }
