@@ -1,0 +1,66 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
+
+public class Door : MonoBehaviour
+{
+    public int flag;
+    public bool key;
+    string n;
+    public void Start()
+    {
+        flag = 0;
+        n = gameObject.name;
+    }
+    
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        flag = 1;
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        flag = 0;
+    }
+    void Update()
+    {
+        if (flag == 1 && Input.GetKey(KeyCode.Return))
+        {
+            Debug.Log(n);
+            switch (n)
+            {
+            case "Door_in1":
+                SceneManager.LoadSceneAsync(1);
+                break;
+            case "Door_in2":
+                SceneManager.LoadSceneAsync(2);
+                break;
+            case "Door_in3":
+                SceneManager.LoadSceneAsync(3);
+                break;
+            case "Door_in4":
+                SceneManager.LoadSceneAsync(4);
+                break;
+            case "Door_in5":
+                SceneManager.LoadSceneAsync(5);
+                break;
+            case "Corridor":
+                SceneManager.LoadSceneAsync(6);
+                break;
+            case "Door_in_exit":
+                SceneManager.LoadSceneAsync(0);
+                break;
+            case "Door_in10":
+                SceneManager.LoadSceneAsync(8);
+                break;
+            case "Door_in9":
+                SceneManager.LoadSceneAsync(7);
+                break;
+            }
+            
+        }
+    }
+
+}

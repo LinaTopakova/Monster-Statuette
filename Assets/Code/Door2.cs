@@ -5,21 +5,20 @@ using UnityEngine.U2D;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 
-public class Door : MonoBehaviour
+public class Door2 : MonoBehaviour
 {
-    public int flag;
-    public void Start()
+    static int flag = 0;
+    public void Away()
     {
         flag = 0;
     }
-    
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             flag = 1;
         }
-        
+
     }
     void OnTriggerExit2D(Collider2D other)
     {
@@ -32,5 +31,4 @@ public class Door : MonoBehaviour
             SceneManager.LoadSceneAsync(2);
         }
     }
-
 }
