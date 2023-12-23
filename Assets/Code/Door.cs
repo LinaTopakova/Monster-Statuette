@@ -7,26 +7,29 @@ using Unity.VisualScripting;
 
 public class Door : MonoBehaviour
 {
-    public int flag;
-    public bool key;
+    public bool flag;
+    //public bool key;
     string n;
     public void Start()
     {
-        flag = 0;
+        flag = false;
         n = gameObject.name;
     }
     
     public void OnTriggerEnter2D(Collider2D other)
     {
-        flag = 1;
+        flag = true;
+
+
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        flag = 0;
+        flag = false;
     }
-    void Update()
+    void FixedUpdate()
     {
-        if (flag == 1 && Input.GetKey(KeyCode.Return))
+        //Debug.Log(flag);
+        if (flag  && Input.GetKey(KeyCode.Return))
         {
             Debug.Log(n);
             switch (n)

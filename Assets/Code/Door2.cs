@@ -7,26 +7,26 @@ using Unity.VisualScripting;
 
 public class Door2 : MonoBehaviour
 {
-    static int flag = 0;
-    public void Away()
+    public static bool flag = false;
+    public void Start()
     {
-        flag = 0;
+        flag = false;
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            flag = 1;
+            flag = true;
         }
 
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        flag = 0;
+        flag = false;
     }
     void Update()
     {
-        if (flag == 1 && Input.GetKey(KeyCode.Return))
+        if (flag && Input.GetKey(KeyCode.Return))
         {
             SceneManager.LoadSceneAsync(2);
         }

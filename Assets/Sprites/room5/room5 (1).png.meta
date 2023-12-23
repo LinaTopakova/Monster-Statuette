@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3448e7c25361df48b35b9efb218d214
+guid: 0a334fad4fc8ffc42a10597a0799a935
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,11 +123,74 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: room9_0
+      name: room5 (1)_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 344
+        x: 851
+        y: 611
+        width: 121
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e55625c06046484a93b982fac855854
+      internalID: 1368657125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room5 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 606
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf882497407290c488637855f121737c
+      internalID: -13747180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room5 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 557
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b6f678457307443b766842b7d7a291
+      internalID: 1748086947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room5 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
         width: 304
         height: 224
       alignment: 0
@@ -137,155 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b04a18d03fe704e9edd1f85e7a30a6
-      internalID: -1826094936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_1
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 490
-        width: 16
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 359c2998d24796f4e86a992fe0565a6b
-      internalID: -1496063326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_2
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 521
-        width: 65
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d628090fdc74734781705fa4dd0bdf8
-      internalID: -1355125930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_3
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 521
-        width: 65
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0875d875a3cfa754fab75ecb460a7ecc
-      internalID: -2052325155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_4
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 497
-        width: 55
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83f2813fbe854204e9384c3226c50ad3
-      internalID: 1163516695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_5
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 392
-        width: 45
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785e6f18957e25649affd020044d5709
-      internalID: 2104283351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 440
-        width: 16
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca5162a1df5f7784abc5acaa7498f672
-      internalID: -855265332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_7
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 474
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7a69ad9b28c2eb48afe578ac763f72d
-      internalID: -130579189
+      spriteID: 95c65699eb91ab64897e675f09114270
+      internalID: -1685469397
       vertices: []
       indices: 
       edges: []
@@ -301,14 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      room9_0: -1826094936
-      room9_1: -1496063326
-      room9_2: -1355125930
-      room9_3: -2052325155
-      room9_4: 1163516695
-      room9_5: 2104283351
-      room9_6: -855265332
-      room9_7: -130579189
+      room5 (1)_0: 1368657125
+      room5 (1)_1: -13747180
+      room5 (1)_2: 1748086947
+      room5 (1)_3: -1685469397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

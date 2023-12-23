@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3448e7c25361df48b35b9efb218d214
+guid: 76462d50c2ecfc646a4c9dcbad45224e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -50,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -123,169 +123,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: room9_0
+      name: animation_1-12_-sheet (2)_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 344
-        width: 304
-        height: 224
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b04a18d03fe704e9edd1f85e7a30a6
-      internalID: -1826094936
+      spriteID: f2ec07e347765ed4689f4fdcde4f3db8
+      internalID: 2125946532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_1
+      name: animation_1-12_-sheet (2)_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 490
-        width: 16
-        height: 62
+        x: 256
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 359c2998d24796f4e86a992fe0565a6b
-      internalID: -1496063326
+      spriteID: 83e4004bb9d8ed44ea92d6df8026a925
+      internalID: 1759021117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_2
+      name: animation_1-12_-sheet (2)_2
       rect:
         serializedVersion: 2
-        x: 393
-        y: 521
-        width: 65
-        height: 31
+        x: 480
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d628090fdc74734781705fa4dd0bdf8
-      internalID: -1355125930
+      spriteID: fa18c5de8e94c5d47b9b9fa747627cc9
+      internalID: -692218452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_3
+      name: animation_1-12_-sheet (2)_3
       rect:
         serializedVersion: 2
-        x: 520
-        y: 521
-        width: 65
-        height: 31
+        x: 704
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac47e8451a3b75341a4df9907588a45d
+      internalID: -1797655751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_1-12_-sheet (2)_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 32
+        width: 208
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0875d875a3cfa754fab75ecb460a7ecc
-      internalID: -2052325155
+      spriteID: b993845a4d43f1f49af2341700631ae0
+      internalID: -1999822866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_4
+      name: animation_1-12_-sheet (2)_5
       rect:
         serializedVersion: 2
-        x: 390
-        y: 497
-        width: 55
-        height: 21
+        x: 1152
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8a969c9067bdc45a5aaf7f15dbf9bc
+      internalID: -1885134596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_1-12_-sheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 32
+        width: 208
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825cf25e887f2394ba456d3b262820a6
+      internalID: 188790477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_1-12_-sheet (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 32
+        width: 208
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83f2813fbe854204e9384c3226c50ad3
-      internalID: 1163516695
+      spriteID: ea50659f826e99d40803af253b45bddd
+      internalID: 695803805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_5
+      name: animation_1-12_-sheet (2)_8
       rect:
         serializedVersion: 2
-        x: 525
-        y: 392
-        width: 45
-        height: 78
+        x: 1824
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785e6f18957e25649affd020044d5709
-      internalID: 2104283351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: room9_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 440
-        width: 16
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca5162a1df5f7784abc5acaa7498f672
-      internalID: -855265332
+      spriteID: 1f78c488d394ad84581b51603780ba81
+      internalID: -519016014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: room9_7
+      name: animation_1-12_-sheet (2)_9
       rect:
         serializedVersion: 2
-        x: 531
-        y: 474
-        width: 11
-        height: 9
+        x: 2048
+        y: 32
+        width: 208
+        height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a69ad9b28c2eb48afe578ac763f72d
-      internalID: -130579189
+      spriteID: f67bc07a9d0212649ae615dfc2f3ce29
+      internalID: -1426057485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_1-12_-sheet (2)_10
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 32
+        width: 208
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160bcc620f33f984198874003cd3ff1b
+      internalID: 451321355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation_1-12_-sheet (2)_11
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 32
+        width: 208
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cda12b145d22b6479ed04ef1cc7c67c
+      internalID: 638911809
       vertices: []
       indices: 
       edges: []
@@ -301,14 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      room9_0: -1826094936
-      room9_1: -1496063326
-      room9_2: -1355125930
-      room9_3: -2052325155
-      room9_4: 1163516695
-      room9_5: 2104283351
-      room9_6: -855265332
-      room9_7: -130579189
+      animation_1-12_-sheet (2)_0: 2125946532
+      animation_1-12_-sheet (2)_1: 1759021117
+      animation_1-12_-sheet (2)_10: 451321355
+      animation_1-12_-sheet (2)_11: 638911809
+      animation_1-12_-sheet (2)_2: -692218452
+      animation_1-12_-sheet (2)_3: -1797655751
+      animation_1-12_-sheet (2)_4: -1999822866
+      animation_1-12_-sheet (2)_5: -1885134596
+      animation_1-12_-sheet (2)_6: 188790477
+      animation_1-12_-sheet (2)_7: 695803805
+      animation_1-12_-sheet (2)_8: -519016014
+      animation_1-12_-sheet (2)_9: -1426057485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
