@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 
 public class Door : MonoBehaviour
 {
+    [SerializeField] public Playercomponent component;
     public bool flag;
     //public bool key;
     string n;
@@ -31,7 +32,6 @@ public class Door : MonoBehaviour
         //Debug.Log(flag);
         if (flag  && Input.GetKey(KeyCode.Return))
         {
-            Debug.Log(n);
             switch (n)
             {
             case "Door_in1":
@@ -40,10 +40,21 @@ public class Door : MonoBehaviour
             case "Door_in2":
                 SceneManager.LoadSceneAsync(2);
                 break;
-            case "Door_in3":
+            case "Door_in3_1":
+                component.Setlast("Room2");
+
                 SceneManager.LoadSceneAsync(3);
                 break;
-            case "Door_in4":
+            case "Door_in3_2":
+                component.Setlast("room5");
+                SceneManager.LoadSceneAsync(3);
+                break;
+            case "Door_in4_1":
+                component.Setlast("corridor");
+                SceneManager.LoadSceneAsync(4);
+                break;
+            case "Door_in4_2":
+                component.Setlast("room5");
                 SceneManager.LoadSceneAsync(4);
                 break;
             case "Door_in5":

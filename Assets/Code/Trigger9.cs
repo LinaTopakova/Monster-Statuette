@@ -35,7 +35,7 @@ public class Trigger9 : MonoBehaviour
         
         k_p = component.GetKey_p();
         r = key.GetComponent<Renderer>();
-        Debug.Log(k);
+        
         if (k)
         {
             r.sortingOrder = 2;
