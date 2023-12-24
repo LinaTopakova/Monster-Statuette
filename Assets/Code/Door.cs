@@ -35,9 +35,11 @@ public class Door : MonoBehaviour
             switch (n)
             {
             case "Door_in1":
+                component.Setlast("Room2");
                 SceneManager.LoadSceneAsync(1);
                 break;
             case "Door_in2":
+                component.Setlast("Room1");
                 SceneManager.LoadSceneAsync(2);
                 break;
             case "Door_in3_1":
@@ -58,15 +60,19 @@ public class Door : MonoBehaviour
                 SceneManager.LoadSceneAsync(4);
                 break;
             case "Door_in5":
+                component.Setlast("Room4");
                 SceneManager.LoadSceneAsync(5);
                 break;
             case "Corridor":
+                component.Setlast("Room2");
                 SceneManager.LoadSceneAsync(6);
                 break;
             case "Door_in_exit":
+                component.Setlast("Room1");
                 SceneManager.LoadSceneAsync(0);
                 break;
             case "Door_in10":
+                component.Setlast("Room2");
                 SceneManager.LoadSceneAsync(8);
                 break;
             case "Door_in9":
