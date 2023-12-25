@@ -38,7 +38,7 @@ public class Trigger9 : MonoBehaviour
         
         if (k)
         {
-            r.sortingOrder = 2;
+            r.sortingOrder = 4;
         }
         else
         {
@@ -99,7 +99,7 @@ public class Trigger9 : MonoBehaviour
             }
             k_p = false;
             component.SetKey_p(false);
-            r.sortingOrder = 3;
+            r.sortingOrder = 4;
             //Debug.Log(r.sortingOrder);
         }
     }

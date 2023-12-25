@@ -14,21 +14,19 @@ public class sort : MonoBehaviour
     private void Update()
     {
         V3 = this.transform.position;
-        if ((V3.y<0.796 && V3.y>0.615)&&(V3.x<1.11 && V3.x > 0.561))
-        {
-           
-            r.sortingOrder = 1;
-        }
-        else if((V3.y < 0.796 && V3.y > 0.615) && (V3.x < -0.613 && V3.x > -1.05))
+        if ((V3.y<0.796f && V3.y>0.615f)&&(V3.x<1.11f && V3.x > 0.561f))
         {
             r.sortingOrder = 1;
-           
         }
-        else if ((V3.y < -0.615 && V3.y > -0.796) && (V3.x < -0.613 && V3.x > -1.05))
+        else if((V3.y < 0.796f && V3.y > 0.615f) && (V3.x < -0.613f && V3.x > -1.05f))
+        {
+            r.sortingOrder = 1;
+        }
+        else if ((V3.y < -0.615f && V3.y > -0.796f) && (V3.x < -0.613f && V3.x > -1.05f))
         {
             r.sortingOrder = 5;
         }
-        else if ((V3.y < -0.615 && V3.y > -0.796) && (V3.x < 1.11 && V3.x > 0.561))
+        else if ((V3.y < -0.615f && V3.y > -0.796f) && (V3.x < 1.11f && V3.x > 0.561f))
         {
             r.sortingOrder = 5;
         }
