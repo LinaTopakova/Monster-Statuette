@@ -38,10 +38,25 @@ public class Door : MonoBehaviour
                 component.Setlast("Room2");
                 SceneManager.LoadSceneAsync(1);
                 break;
-            case "Door_in2":
+
+            case "Door_in2_1":
                 component.Setlast("Room1");
                 SceneManager.LoadSceneAsync(2);
                 break;
+            case "Door_in2_10":
+                component.Setlast("room10");
+                SceneManager.LoadSceneAsync(2);
+                break;
+            case "Door_in2_3_1":
+                component.Setlast("Room3_1");
+                SceneManager.LoadSceneAsync(2);
+                break;
+            case "Door_in2_c":
+                component.Setlast("corridor");
+                SceneManager.LoadSceneAsync(2);
+                break;
+
+
             case "Door_in3_1":
                 component.Setlast("Room2");
 
@@ -51,6 +66,7 @@ public class Door : MonoBehaviour
                 component.Setlast("room5");
                 SceneManager.LoadSceneAsync(3);
                 break;
+
             case "Door_in4_1":
                 component.Setlast("corridor");
                 SceneManager.LoadSceneAsync(4);
@@ -59,11 +75,23 @@ public class Door : MonoBehaviour
                 component.Setlast("room5");
                 SceneManager.LoadSceneAsync(4);
                 break;
-            case "Door_in5":
+
+
+            case "Door_in5_4":
                 component.Setlast("Room4");
                 SceneManager.LoadSceneAsync(5);
                 break;
-            case "Corridor":
+            case "Door_in5_9":
+                component.Setlast("room9");
+                SceneManager.LoadSceneAsync(5);
+                break;
+            case "Door_in5_3_2":
+                component.Setlast("Room3");
+                SceneManager.LoadSceneAsync(5);
+                break;
+
+
+                case "Corridor":
                 component.Setlast("Room2");
                 SceneManager.LoadSceneAsync(6);
                 break;
@@ -76,6 +104,7 @@ public class Door : MonoBehaviour
                 SceneManager.LoadSceneAsync(8);
                 break;
             case "Door_in9":
+                component.Setlast("room9");
                 SceneManager.LoadSceneAsync(7);
                 break;
             }

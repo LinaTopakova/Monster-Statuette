@@ -61,7 +61,7 @@ public class Trigger9 : MonoBehaviour
     {
         if (k && flag && Input.GetKey(KeyCode.E))
         {
-            Time.timeScale = 0.1f;
+            Time.timeScale = 0.6f;
             r.sortingOrder = -2;
             k = false;
             switch (lname)

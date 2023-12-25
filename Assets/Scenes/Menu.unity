@@ -282,9 +282,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 307466582}
-        m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1396118542}
+        m_TargetAssemblyTypeName: menu_panel, Assembly-CSharp
+        m_MethodName: ControlPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -437,6 +437,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1f30802b3fdc24dabb808f926bcec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  component: {fileID: 1537835171}
+--- !u!1001 &406028845
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.519806
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.905391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479020964175768382, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442717362704216002, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4442717362704216002, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1537835171}
+  m_SourcePrefab: {fileID: 100100000, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
 --- !u!1 &520585421
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +714,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 617718424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1396118542}
+        m_TargetAssemblyTypeName: menu_panel, Assembly-CSharp
+        m_MethodName: PanelPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &617718424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1039,6 +1112,7 @@ GameObject:
   - component: {fileID: 1396118540}
   - component: {fileID: 1396118539}
   - component: {fileID: 1396118538}
+  - component: {fileID: 1396118542}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1130,6 +1204,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1396118542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396118537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c190a18348c6648ba45f0b03b256ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1536869479}
+  Control: {fileID: 154352214}
 --- !u!1 &1448065862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,6 +1429,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536869479}
   m_CullTransparentMesh: 1
+--- !u!1 &1537835170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4442717362704216002, guid: 8f7ec58e4140f2240a5f1a3c7ea350d6, type: 3}
+  m_PrefabInstance: {fileID: 406028845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1537835171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537835170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc15b7239a12124280d782df382a5e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1559729596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,7 +1503,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1616,3 +1721,4 @@ SceneRoots:
   - {fileID: 307466581}
   - {fileID: 1396118541}
   - {fileID: 961369180}
+  - {fileID: 406028845}

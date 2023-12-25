@@ -7,7 +7,9 @@ using Unity.VisualScripting;
 
 public class Door2 : MonoBehaviour
 {
+    [SerializeField] public Playercomponent component;
     public static bool flag = false;
+
     public void Start()
     {
         flag = false;
@@ -28,6 +30,7 @@ public class Door2 : MonoBehaviour
     {
         if (flag && Input.GetKey(KeyCode.Return))
         {
+            component.Setlast("Room1");
             SceneManager.LoadSceneAsync(2);
         }
     }
